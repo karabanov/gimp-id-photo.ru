@@ -1,0 +1,171 @@
+@charset "utf-8";
+* {
+  margin:0;
+  padding:0;
+}
+
+img {border:0;}
+
+a {color:#ccccce;}
+
+a:hover{
+  color:#fff;
+  text-decoration:underline;
+}
+
+.external {
+  background: url("../images/blank.png") no-repeat 100% 5px;
+  padding-right: 13px;
+}
+
+body{
+  font-family:Verdana, Helvetica Neue,Hei,Arial,sans-serif;
+  color:#000;
+  font-size:1em;
+  background:#797d78;
+}
+
+header {
+  display:block;
+  margin:auto;
+  width:310px;
+}
+
+header h1 a{
+  font: bold 0.6em/1.1em Verdana;
+  width:300px;
+  color:#ccccce;
+  text-decoration:none;
+}
+
+header p {
+  text-align:center;
+  font: bold 1em/1.1em Verdana;
+  margin:25px;
+}
+
+nav {
+  display:block;
+  background:#333;
+}
+
+nav ul {
+  padding:20px;
+  list-style-type:none;
+}
+
+nav ul li{
+  margin:10px;
+}
+
+nav ul li a{
+  font: normal 1.1em/1.1em Verdana;
+}
+
+.nav_img_home,
+.nav_img_howto,
+.nav_img_download,
+.nav_img_faq,
+.nav_img_donate{
+  display:inline-block;
+  zoom:1;
+  *display:inline;
+  width:33px;
+  height:33px;
+  margin-right:4px;
+  position:relative;
+  top:12px;
+  background:transparent url(../images/sprite.png) no-repeat;
+}
+
+.nav_img_home {background-position: 0px 0px}
+.nav_img_howto {background-position: -45px 0px}
+.nav_img_download {background-position: -99px 0px}
+.nav_img_faq{background-position: -192px 0px}
+.nav_img_donate {background-position: -150px 0px}
+
+h2 {
+  margin:-15px auto 15px;
+  color:#666;
+  text-align:center;
+}
+
+article {
+  display:block;
+  width:300px;
+  margin:20px auto;
+  padding:25px 5px 5px;
+  border:1px solid #666;
+  background:#fff;
+}
+
+article  p {
+  line-height:1.5em;
+  text-indent:1em;
+  margin-bottom:1em;
+  text-align:justify;
+}
+
+article p.consol {
+background: #122312;
+color: white;
+padding: 15px 20px;
+font-family: "Ubuntu Mono", monospace, "Courier New";
+font-size: 14px;
+line-height: 18px;
+}
+
+figure {
+  display:block;
+  width:280px;
+  margin:1em auto;
+  text-align:center;
+}
+
+figcaption {
+  display:block;
+  font-size:0.9em;
+  text-align:justify;
+  line-height:1.5em;
+  margin:10px auto;
+  color:#666;
+}
+
+.ad {display:none;}
+
+footer {
+  display:block;
+  position:absolute;
+  border-top:1px inset #888;
+  background:#111;
+  color:#fff;
+  font-size:0.8em;
+}
+
+footer p{
+  margin-bottom:10px;
+  color:#ccccce;
+}
+
+footer ul {
+  display:block;
+  width:auto;
+  margin:30;
+  list-style-type:none;
+}
+
+footer ul  li {
+  display: inline;
+  margin:0 15px;
+}
+
+.copyright {
+  float:left;
+  margin:30px;
+}
+
+.copyright strong {
+  font-weight:normal;
+}
+
+#share  {display:none;}

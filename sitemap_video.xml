@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+      xmlns:video="http://www.google.com/schemas/sitemap-video/1.0">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://gimp-id-photo.ru/</loc>
+  <lastmod>2011-11-04T20:55:26+00:00</lastmod>
+  <image:image>
+    <image:loc>http://gimp-id-photo.ru/images/logo.png</image:loc> 
+  </image:image>
+  <video:video>     
+    <video:player_loc allow_embed="yes" autoplay="ap=1">http://www.youtube.com/embed/jbu99_3n26o</video:player_loc>
+    <video:thumbnail_loc>http://i4.ytimg.com/vi/jbu99_3n26o/2.jpg</video:thumbnail_loc>
+    <video:title>Фото на документы в GIMP</video:title>  
+    <video:description>На видео показан процесс изготовления фото на документы (конкретно фото на паспорт гражданина Российской Федерации) в свободном растровом графическом редакторе GIMP с использованием дополнения «Фото на документы». Подробнее на сайте http://gimp-id-photo.ru</video:description>
+    <video:tag>gimp-id-photo.ru</video:tag>
+    <video:tag>фото на документы</video:tag>
+    <video:tag>фото на паспорт</video:tag>
+    <video:tag>фото на визу</video:tag>
+    <video:tag>фото на загран паспорт</video:tag>
+    <video:tag>паспорт РФ</video:tag>
+    <video:tag>GIMP</video:tag>
+    <video:tag>программы</video:tag>
+    <video:tag>обработка фото</video:tag>
+    <video:tag>компьютерная графика</video:tag>
+    <video:tag>demo</video:tag>
+    <video:tag>плагин для GIMP</video:tag>
+    <video:tag>дополнение для GIMP</video:tag>
+    <video:tag>plug-in</video:tag>
+    <video:tag>tutorial</video:tag>
+    <video:tag>расширение для GIMP</video:tag>
+  </video:video>
+</url>
+</urlset>

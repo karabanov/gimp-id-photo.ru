@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /files/
+Disallow: /error_pages/
+Disallow: /formats_data/sorry_no_data.html
+
+Host: gimp-id-photo.ru
+
+Sitemap: http://gimp-id-photo.ru/sitemap.xml
+Sitemap: http://gimp-id-photo.ru/sitemap_video.xml
