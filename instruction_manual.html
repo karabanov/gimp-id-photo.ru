@@ -7,22 +7,24 @@
   <meta name="keywords" content="фото на паспорт, фото на документы, GIMP, как сделать фото на документы, фото на документы в Linux, фото на документы в GIMP, gimp-id-photo.ru">
 
   <!--[if lt IE 9]> 
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <link rel="stylesheet" href="http://gimp-id-photo.ru/css/style.css">
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="//gimp-id-photo.ru/css/style.css">
   <![endif]-->
-  <script type="text/javascript" src="http://userapi.com/js/api/openapi.js?24"></script>
+  <script type="text/javascript" src="//userapi.com/js/api/openapi.js?24"></script>
   
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-    {lang: 'ru'}
-  </script>
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'ru'}
+</script>
   
-  <link rel="stylesheet" href="http://gimp-id-photo.ru/css/print.css" media="print"> 
-  <link rel="stylesheet" href="http://gimp-id-photo.ru/css/mobile.css" media="handheld, screen and (max-width: 640px)"> 
-  <link rel="stylesheet" href="http://gimp-id-photo.ru/css/style.css" media="only screen and (min-width: 640px)">
+  <link rel="stylesheet" href="//gimp-id-photo.ru/css/print.css" media="print"> 
+  <link rel="stylesheet" href="//gimp-id-photo.ru/css/mobile.css" media="handheld, screen and (max-width: 640px)"> 
+  <link rel="stylesheet" href="//gimp-id-photo.ru/css/style.css" media="only screen and (min-width: 640px)">
    
-  <link rel="icon" type="image/png" href="http://gimp-id-photo.ru/images/favicon.png">
-  <link rel="apple-touch-icon" href="http://gimp-id-photo.ru/images/apple-touch-favicon.png">
-  <link rel="image_src" href="http://gimp-id-photo.ru/images/logo.png">
+  <link rel="icon" type="image/png" href="//gimp-id-photo.ru/images/favicon.png">
+  <link rel="apple-touch-icon" href="//gimp-id-photo.ru/images/apple-touch-favicon.png">
+  <link rel="image_src" href="//gimp-id-photo.ru/images/logo.png">
+  <meta name="theme-color" content="#010101">
+  <link rel="icon" sizes="192x192" href="//gimp-id-photo.ru/images/apple-touch-favicon.png">
   <title>Фото на документы в GIMP &#124; Как это работает</title>
 </head>
 
@@ -30,16 +32,16 @@
 
 <header>
   <h1><a href="/">Фото на документы в GIMP</a></h1>
-  <p><a href="http://gimp-id-photo.ru/files/id_photo_BETA_for_GIMP-2.8.x_11_June_2012.zip" title="Прямая ссылка на ZIP архив с самой свежей версией дополнения Для GIMP-2.8.x" class="a-btn"><span class="a-btn-text">Скачать&nbsp;дополнение <small>Для GIMP-2.8.x</small></span><span class="a-btn-icon-right"><span></span></span></a></p>
+  <p><a href="//gimp-id-photo.ru/files/id_photo_BETA_for_GIMP-2.8.x_11_June_2012.zip" title="Прямая ссылка на ZIP архив с самой свежей версией дополнения Для GIMP-2.8.x" class="a-btn"><span class="a-btn-text">Скачать&nbsp;дополнение <small>Для GIMP-2.8.x</small></span><span class="a-btn-icon-right"><span></span></span></a></p>
 </header>
   
 <nav>
   <ul>
-    <li><span class="nav_img_home"></span><a href="http://gimp-id-photo.ru/" title="Перейти на главную страницу">Главная</a></li>
-    <li><span class="nav_img_howto"></span><a href="http://gimp-id-photo.ru/instruction_manual.html" title="Руководство по эксплуатации дополнения">Как это работает</a></li>
-    <li><span class="nav_img_download"></span><a href="http://gimp-id-photo.ru/download.html" title="Страница, с которой можно скачать дополнение">Скачать</a></li>
-    <li><span class="nav_img_faq"></span><a href="http://gimp-id-photo.ru/faq.html"><abbr title="Frequently asked questions. Часто задаваемые вопросы">FAQ</abbr></a></li>
-    <li><span class="nav_img_donate"></span><a href="http://gimp-id-photo.ru/donate.html" title="Сделать «донейт»">Поблагодарить</a></li>
+    <li><span class="nav_img_home"></span><a href="//gimp-id-photo.ru/" title="Перейти на главную страницу">Главная</a></li>
+    <li><span class="nav_img_howto"></span><a href="//gimp-id-photo.ru/instruction_manual.html" title="Руководство по эксплуатации дополнения">Как это работает</a></li>
+    <li><span class="nav_img_download"></span><a href="//gimp-id-photo.ru/download.html" title="Страница, с которой можно скачать дополнение">Скачать</a></li>
+    <li><span class="nav_img_faq"></span><a href="//gimp-id-photo.ru/faq.html"><abbr title="Frequently asked questions. Часто задаваемые вопросы">FAQ</abbr></a></li>
+    <li><span class="nav_img_donate"></span><a href="//gimp-id-photo.ru/donate.html" title="Сделать «донейт»">Поблагодарить</a></li>
   </ul>
 </nav>
 
@@ -47,80 +49,77 @@
   <h2>Как это работает</h2>
   <p>Для начала откройте в графическом редакторе <abbr title="GNU Image Manipulation Program, растровый графический редактор">GIMP</abbr> фотографию, которую необходимо обработать, и расставьте направляющие. Расставлять направляющие можно в любом порядке, главное, чтобы вертикальная направляющая проходила через центр симметрии лица, а три горизонтальных проходили через верхнюю часть головы, центры глаз и подбородок соответственно.</p>
   <figure>
-    <img src="http://gimp-id-photo.ru/images/foto_1.png" width="453" height="441" alt="Фотография, которую необходимо обработать">
+    <img src="//gimp-id-photo.ru/images/foto_1.png" width="453" height="441" alt="Фотография, которую необходимо обработать">
     <figcaption>Правильная расстановка направляющих</figcaption>
   </figure>
   <p>После того, как все направляющие расставлены правильно, вызовите диалоговое окно выбора формата из меню <b>«На документы» > «Формат...»</b>.</p>
   <figure>
-    <img src="http://gimp-id-photo.ru/images/foto_2.png" width="650" height="391" alt="Диалоговое окно «Выбор формата фотографии»">
+    <img src="//gimp-id-photo.ru/images/foto_2.png" width="650" height="391" alt="Диалоговое окно «Выбор формата фотографии»">
     <figcaption>Диалоговое окно «Выбор формата фотографии»</figcaption>
   </figure>
   <p>Удобнее всего вызывать диалоговое окно «Выберите формат» с помощью предварительно назначенной «горячей клавиши».</p>
-  <blockquote cite="http://gimp.ru/articles.php?article_id=25">
+  <blockquote cite="//gimp.ru/articles.php?article_id=25">
     <p>По умолчанию в <abbr title="GNU Image Manipulation Program, растровый графический редактор">GIMP</abbr> отключена очень полезная функция, благодаря которой так называемые «горячие клавиши» можно назначить, просто набрав их в нужном пункте меню. Благодаря этой функции можно быстро переназначить существующие и назначить новые клавиатурные комбинации вызова инструментов, фильтров и прочих диалогов, не заходя в диалог настройки клавиатурных комбинаций.</p>
     <p>Например, можно открыть меню «Цвет», навести курсор на пункт «Уровни...» и нажать Ctrl+L, после чего в этой и всех следующих сеансах работы с <abbr title="GNU Image Manipulation Program, растровый графический редактор">GIMP</abbr> по Ctrl+L можно вызывать диалог уровней.</p>
-    <p>Обычно эта функция отключается и включается глобально для всех приложений, написанных на Gtk+. Но поскольку <abbr title="GNU Image Manipulation Program, растровый графический редактор">GIMP</abbr> использует свои темы Gtk+, только частично наследующие параметры внешних тем, на него это не распространяется. Функция динамического назначения клавиатурных комбинаций включается на вкладке «Интерфейс» диалога настроек <abbr title="GNU Image Manipulation Program, растровый графический редактор">GIMP</abbr> («Использовать динамические комбинации клавиш»). <a href="http://gimp.ru/articles.php?article_id=25" class="external">Подробнее</a></p>
+    <p>Обычно эта функция отключается и включается глобально для всех приложений, написанных на Gtk+. Но поскольку <abbr title="GNU Image Manipulation Program, растровый графический редактор">GIMP</abbr> использует свои темы Gtk+, только частично наследующие параметры внешних тем, на него это не распространяется. Функция динамического назначения клавиатурных комбинаций включается на вкладке «Интерфейс» диалога настроек <abbr title="GNU Image Manipulation Program, растровый графический редактор">GIMP</abbr> («Использовать динамические комбинации клавиш»). <a href="//gimp.ru/articles.php?article_id=25" class="external">Подробнее</a></p>
   </blockquote>
   <p>В появившемся диалоговом окне выберите интересующий вас формат (в данном случае, речь идет о фото на паспорт гражданина Российской Федерации) и кликните по кнопке «Применить»<!-- (впрочем, чтобы не делать лишних движений, можете выполнить двойной клик на строке с интересующим вас форматом, и он будет применён немедленно)-->.</p>
   <figure>
-    <img src="http://gimp-id-photo.ru/images/foto_3.png" width="390" height="565" alt="Фото после того, как к нему применили формат «Паспорт РФ»">
+    <img src="//gimp-id-photo.ru/images/foto_3.png" width="390" height="565" alt="Фото после того, как к нему применили формат «Паспорт РФ»">
     <figcaption>Фото после того, как к нему применили формат «Паспорт РФ»</figcaption>
   </figure>
   <p>Приведённое выше фото избавлено от фона и лишних теней. Это пришлось сделать, так как в качестве источников света были использованы обычная лампа накаливания и  встроенная вспышка фотоаппарата, при использовании адекватного освещения такие телодвижения попросту не нужны. Тени были убраны с помощью инструмента «Свободное выделение» (просто выделены и удалены), а фон приведён в порядок с помощью пипетки «Выбор белой точки» диалогового окна «Уровни...».</p>
   <figure>
-    <img src="http://gimp-id-photo.ru/images/foto_4.png" width="383" height="575" alt="Диалог «Уровни»">
+    <img src="//gimp-id-photo.ru/images/foto_4.png" width="383" height="575" alt="Диалог «Уровни»">
     <figcaption>Внешний вид диалога «Уровни...» (вызывается из меню <b>«Цвет» > «Уровни...»</b>) с отмеченным на нем инструментом «Выбор белой точки»</figcaption>
   </figure>
   <p>После того, как вы довели фото до надлежащего вида, можете распечатать его, воспользовавшись диалогом <b>«На документы» > «Печать...»</b> (рекомендую назначить «горячую клавишу» и на него).</p>
   <figure>
-    <img src="http://gimp-id-photo.ru/images/foto_5.png" width="428" height="258" alt="Диалог «Печать...»">
+    <img src="//gimp-id-photo.ru/images/foto_5.png" width="428" height="258" alt="Диалог «Печать...»">
     <figcaption>Внешний вид диалога «Печать...»</figcaption>
   </figure>
   <p>Укажите количество фотографий, выберите формат бумаги, если необходимо, включите дополнительные опции, вроде «Обесцветить фото» или «Добавить уголок», и отправьте все на «дефолтный принтер» нажатием кнопки «Печать». Фотографии будут незамедлительно распечатаны.</p>
   <p>Если принтером «по умолчанию» является не тот принтер, на котором вы печатаете фотографии, то нажмите кнопку «Применить», и конечный результат будет только сформирован, а отправить его на какой угодно принтер сможете вы сами с помощью диалога <b>«Файл» > «Печать...»</b>.</p>
     <figure>
-    <img src="http://gimp-id-photo.ru/images/foto_6.png" width="326" height="481" alt="Фото на документы готовы к печати">
+    <img src="//gimp-id-photo.ru/images/foto_6.png" width="326" height="481" alt="Фото на документы готовы к печати">
     <figcaption>Так будут выглядеть фото на документы, готовые к печати</figcaption>
   </figure>
   <p>Если вам удаётся изготавливать качественные фотографии, не требующие дополнительной обработки, то вы можете, в целях экономии времени, воспользоваться кнопкой «Выполнить автоматически». Действия, которые будут выполнены над фотографией после нажатия этой кнопки (обесцвечивание, добавление уголка, добавление овала с растушёвкой и т.д.), можно изменять в диалоге «Настройки...»</p>
   <figure>
-    <img src="http://gimp-id-photo.ru/images/foto_7.png" width="639" height="431" alt="Внешний вид диалога «Настройки...»">
+    <img src="//gimp-id-photo.ru/images/foto_7.png" width="639" height="431" alt="Внешний вид диалога «Настройки...»">
     <figcaption>Внешний вид диалога «Настройки...»</figcaption>
   </figure>
   <p>На главной странице сайта вы можете посмотреть видеоролик, наглядно демонстрирующий весь процесс изготовления фото на документы в свободном растровом графическом редакторе <abbr title="GNU Image Manipulation Program, растровый графический редактор">GIMP</abbr> с использованием дополнения «Фото на документы».</p>
   <table id="share">
     <tr>
       <td>
-        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fgimp-id-photo.ru%2F&amp;layout=button_count&amp;show_faces=false&amp;width=160&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=21"></iframe>
+        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fgimp-id-photo.ru%2F&amp;layout=button_count&amp;show_faces=false&amp;width=160&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=21"></iframe>
       </td>
       <td id="vk_like">
         <script type="text/javascript">
           VK.init({apiId: 2305831, onlyWidgets: true});
           VK.Widgets.Like("vk_like", {type: "button"}, 1);
-        </script>
+        </script> 
       </td>
       <td>
-        <g:plusone size="small"></g:plusone>
-      </td>
+<div class="g-plusone" data-size="small" data-annotation="inline" data-width="30"></div>      </td>
       <td>
         <!--noindex-->
-        <a class="fb" rel="nofollow" title="Поделиться в Facebook" onclick="window.open('http://www.facebook.com/sharer.php?u=http://gimp-id-photo.ru/', 'Поделиться ссылкой', 'width=600,height=400');" href="#"></a>&nbsp;<a class="vk" rel="nofollow" title="Поделиться во ВКонтакте" onclick="window.open('http://vkontakte.ru/share.php?url=http://gimp-id-photo.ru/', 'Поделиться ссылкой', 'width=600,height=400');" href="#"></a>&nbsp;<a class="lj" rel="nofollow" title="Опубликовать в LiveJournal" href="http://www.livejournal.com/update.bml?event=&lt;img%20src='http://gimp-id-photo.ru/logo.png'%20alt='%D0%A4%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D0%B2%20GIMP.%20%D0%9F%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%BD%D0%B0%20gimp-id-photo.ru'%20style='float:none'&gt;&lt;br&gt;&lt;b&gt;&lt;a%20href='http://gimp-id-photo.ru/'&gt;%D0%A4%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20-%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20GIMP&lt;/a&gt;&lt;/b&gt;&lt;br&gt;" target="_blank"></a>&nbsp;<a class="tt" rel="nofollow" title="Опубликовать в Twitter" href="http://twitter.com/home/?status=http://gimp-id-photo.ru/+Фото+на+документы+в+%23GIMP" target="_blank"></a>&nbsp;<a class="mm" rel="nofollow" title="Поделиться в Мой Мир@Mail.Ru" onclick="window.open('http://connect.mail.ru/share?share_url=http://gimp-id-photo.ru/', 'Поделиться ссылкой', 'width=600,height=400');" href="#"></a>
+        <a class="fb" rel="nofollow" title="Поделиться в Facebook" onclick="window.open('//www.facebook.com/sharer.php?u=//gimp-id-photo.ru/', 'Поделиться ссылкой', 'width=600,height=400');" href="#"></a>&nbsp;<a class="vk" rel="nofollow" title="Поделиться во ВКонтакте" onclick="window.open('//vkontakte.ru/share.php?url=//gimp-id-photo.ru/', 'Поделиться ссылкой', 'width=600,height=400');" href="#"></a>&nbsp;<a class="lj" rel="nofollow" title="Опубликовать в LiveJournal" href="//www.livejournal.com/update.bml?event=&lt;img%20src='//gimp-id-photo.ru/logo.png'%20alt='%D0%A4%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D0%B2%20GIMP.%20%D0%9F%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%BD%D0%B0%20gimp-id-photo.ru'%20style='float:none'&gt;&lt;br&gt;&lt;b&gt;&lt;a%20href='//gimp-id-photo.ru/'&gt;%D0%A4%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20-%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0%20GIMP&lt;/a&gt;&lt;/b&gt;&lt;br&gt;" target="_blank"></a>&nbsp;<a class="tt" rel="nofollow" title="Опубликовать в Twitter" href="//twitter.com/home/?status=//gimp-id-photo.ru/+Фото+на+документы+в+%23GIMP" target="_blank"></a>&nbsp;<a class="mm" rel="nofollow" title="Поделиться в Мой Мир@Mail.Ru" onclick="window.open('//connect.mail.ru/share?share_url=//gimp-id-photo.ru/', 'Поделиться ссылкой', 'width=600,height=400');" href="#"></a>
         <!--/noindex-->
       </td>
     </tr>
   </table>
 </article>
 
-<div id="ad"><script type="text/javascript"><!--
-google_ad_client = "ca-pub-3589739321837417";
-/* Фото на документы в GIMP */
-google_ad_slot = "2941583926";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+<div id="ad"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- gimp-id-photo.ru -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-3589739321837417"
+     data-ad-slot="8309352370"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script></div>
 
 <footer>
